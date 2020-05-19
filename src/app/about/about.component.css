@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #142850;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    color: #142850;
+}
+
+.profile_pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+
+/*section and content**/
+
+section {
+    text-align: center;
+}
+
+.section-paragraphOne {
+    color: white;
+}
+
+#section-headerOne {
+    text-align: center;
+    color: #27496d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-headerTwo {
+    text-align: center;
+    font-size: 30px;
+    color: #27496d;
+}
+
+.paragraph-about {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.span-paragraph {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.section-headerThree {
+    line-height: 20px;
+    color: #27496d;
+}
+
+.division-section {
+    margin: 30px;
+}
+
+.profile-image {
+    height: 250px;
+}
+
+.name {
+    text-transform: uppercase;
+    text-emphasis: none;
+    color: #00909e;
+}
+
+.info {
+    font-size: 12px;
+    font-family: cursive;
+    color: #dae1e7;
+    text-indent: 1px;
+}
+
+.whole-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
